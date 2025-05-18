@@ -285,9 +285,10 @@ footer {
   margin-top: 5rem;
 }
 .footer-content {
+  position: relative;
+  top: 5rem;
   display: flex;
   justify-content: space-around;
-  padding-top: 5rem;
 }
 .media-social h1 {
   color: #52e8ff;
