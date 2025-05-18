@@ -278,3 +278,39 @@ section.blog-nav a {
 .topics {
   height: 60vh;
 }
+/* footer */
+footer {
+  height: 50vh;
+  background-color: black;
+  margin-top: 5rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+.media-social h1 {
+  color: #52e8ff;
+  font-family: "Poppins", serif;
+  font-size: 36px;
+}
+.icons-medsos iconify-icon {
+  color: white;
+}
+
+.footer-menu {
+  color: white;
+}
+.footer-menu h2 {
+  font-family: "Poppins", serif;
+  font-size: 32px;
+}
+.link-menu {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Roboto Serif", sans-serif;
+  color: #c7c7c7;
+  font-size: 20px;
+}
