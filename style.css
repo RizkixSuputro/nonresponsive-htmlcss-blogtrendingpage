@@ -71,6 +71,7 @@ nav {
   top: 10px;
   right: 50px;
   color: azure;
+  cursor: pointer;
 }
 .nav-links ul {
   display: flex;
@@ -188,4 +189,75 @@ section.blog-nav a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+/* blog card */
+.card-trending {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  width: 135vh;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+/* secoondary-card */
+.secondary-card {
+  width: 66vh;
+}
+.secondary-card img {
+  height: 30vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card img {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+}
+.information-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.information-content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+.information-content h5 {
+  font-family: Lato, serif;
+  font-size: 20px;
+  color: #c7c7c7;
+}
+.information-content p {
+  font-family: "Roboto", serif;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 26px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+/* right sidebar */
+.right-sidebar {
+  position: relative;
+  margin-top: 2rem;
+  margin-right: 10%;
+}
+.trending-rightbar {
+  width: 25vw;
+  height: 40vh;
+  background-color: #d3d3d3;
+}
+.content-text {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
